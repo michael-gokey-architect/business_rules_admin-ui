@@ -1,2 +1,2 @@
-# business_rules_admin-ui
+# business rules admin-ui
 CRUD app for rules, minus the Delete
