@@ -1,0 +1,48 @@
+{    
+    "rules": [
+        {
+            "id": 1,
+            "name": "Rule001",
+            "cost": 10.0,
+            "conditions": {
+                "channel": "IFS",
+                "cardScheme": "VI",
+                "currency": "USD",
+                "txnType": "CP"
+            }
+          },
+          {
+            "id": 2,
+            "name": "Rule002",
+            "cost": 20.0,
+             "conditions": {
+                "channel": "IFS",
+                "cardScheme": "VI",
+                "currency": "USD",
+                "txnType": "CP"
+            }
+        },
+          {
+            "id": 3,
+            "name": "Rule003",
+            "cost": 30.0,
+            "conditions": {
+                "channel": "IFS",
+                "cardScheme": "VI",
+                "currency": "USD",
+                "txnType": "CP"
+            }
+          },
+          {
+            "id": 4,
+            "name": "Rule004",
+            "cost": 40.0,
+            "conditions": {
+                "channel": "IFS",
+                "cardScheme": "VI",
+                "currency": "USD",
+                "txnType": "CP"
+            }
+        }
+    ]
+}
