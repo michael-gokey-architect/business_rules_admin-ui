@@ -1,16 +1,20 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './rules/home/home.component';
-import { DetailsComponent } from './rules/details/details.component';
-import { CreateComponent } from './rules/create/create.component';
-import { UpdateComponent } from './rules/update/update.component';
+
+import { BootstrapSampleComponent } from './bootstrap-sample/bootstrap-sample.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { IndexComponent } from '../app/post/index/index.component';
+import { FirstComponent } from './first/first.component';
+import { SecondComponent } from './second/second.component';
 
 const routes: Routes = [
-  { path: 'rules', redirectTo: 'rules/home', pathMatch: 'full'},
-  { path: 'rules/home', component: HomeComponent },
-  { path: 'rules/details/:productId', component: DetailsComponent },
-  { path: 'rules/create', component: CreateComponent },
-  { path: 'rules/update/:productId', component: UpdateComponent } 
+  { path: 'first-component', component: FirstComponent },
+  { path: 'second-component', component: SecondComponent },
+  { path: 'post', redirectTo: 'post/index', pathMatch: 'full'},
+  { path: 'sample', component: BootstrapSampleComponent },
+  { path: '',   redirectTo: '/first-component', pathMatch: 'full' },
+  { path: '**', component: PageNotFoundComponent },
+
 ];
 
 @NgModule({

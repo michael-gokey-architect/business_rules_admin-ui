@@ -45,3 +45,45 @@ Next, create a database.json file inside a server folder with the following obje
 
 
 json-server --watch database.json
+
+
+https://kaustubhtalathi.medium.com/mock-data-for-angular-5-applications-with-json-server-part-1-d377eced223b
+
+https://duncanhunter.gitbook.io/enterprise-angular-applications-with-ngrx-and-nx/introduction/4-add-json-server
+
+--------------------------------------------
+npm install bootstrap bootstrap-icons
+
+Edit angular.json file, and add
+
+"styles": [
+  "node_modules/bootstrap/scss/bootstrap.scss",
+  "node_modules/bootstrap-icons/font/bootstrap-icons.css",
+  "src/styles.scss"
+],
+"scripts": [
+  "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+]
+
+
+--------------------------------------------
+npm install @ng-bootstrap/ng-bootstrap@next
+
+app.module.ts file and add the lines as below:
+
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
+imports: [
+  BrowserModule,
+  NgbModule,
+  AppRoutingModule,
+],
+
+
+
+
+
+
+https://angular.io/guide/router#generate-an-application-with-routing-enabled
+
+https://www.itsolutionstuff.com/post/angular-12-crud-application-tutorial-exampleexample.html
