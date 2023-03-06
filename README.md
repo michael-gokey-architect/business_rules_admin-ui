@@ -87,3 +87,10 @@ imports: [
 https://angular.io/guide/router#generate-an-application-with-routing-enabled
 
 https://www.itsolutionstuff.com/post/angular-12-crud-application-tutorial-exampleexample.html
+
+https://github.com/gokemon/tuts-plus/tree/master/git-notes
+
+https://www.bezkoder.com/angular-15-crud-example/#Create_Data_Service
+
+https://www.tektutorialshub.com/angular/angular-routing-between-modules/
+

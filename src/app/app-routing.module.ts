@@ -10,8 +10,9 @@ import { SecondComponent } from './second/second.component';
 const routes: Routes = [
   { path: 'first-component', component: FirstComponent },
   { path: 'second-component', component: SecondComponent },
-  { path: 'post', redirectTo: 'post/index', pathMatch: 'full'},
+  { path: 'post', redirectTo: '/post/index', pathMatch: 'full'},
   { path: 'sample', component: BootstrapSampleComponent },
+  { path: 'home', component: FirstComponent },
   { path: '',   redirectTo: '/first-component', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent },
 
